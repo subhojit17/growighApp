@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <ImageView
+        android:id="@+id/home_screen_image"
+        android:layout_width="290dp"
+        android:layout_height="260dp"
+        android:src="@drawable/home_screen_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"/>
+    <TextView
+        android:id="@+id/welcome_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Subhojit"
+        android:layout_below="@+id/home_screen_image"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:textColor="@color/text_color"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/feeds"
+        android:layout_width="342dp"
+        android:layout_height="74dp"
+        android:background="@drawable/home_button_background"
+        android:layout_below="@+id/welcome_user"
+        android:layout_centerHorizontal="true"
+        android:text="Feeds"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:layout_marginTop="45dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Upload_Image"
+        android:layout_width="342dp"
+        android:layout_height="74dp"
+        android:background="@drawable/home_button_background"
+        android:layout_below="@+id/feeds"
+        android:layout_centerHorizontal="true"
+        android:text="Upload Image"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:layout_marginTop="35dp"/>
+
+
+
+
+</RelativeLayout>
